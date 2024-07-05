@@ -41,17 +41,35 @@ int main(){
 
     printf("%d",b);
 }
-*/
+
 //문제 4
 #include<stdio.h>
 
 int main(){
-    int a;
+    int a,b=9;
     scanf("%d",&a);
 
-    int i=10;
-    while(i<0){
-        printf("%d \n",a*i);
-        i--;
+    int i=1;
+    while(i<10){
+        printf("%d \n",a*b);
+        i++;
+        b--;
     }
+}
+*/
+//문제 5
+#include<stdio.h>
+
+int main(){
+    float a;
+    scanf("%d",&a);
+    float b,c;
+    int i;
+    while(i<a){
+        scanf("%d",&b);
+
+        c+=b;
+        i++;
+    }
+    printf("%f",c/a);
 }
