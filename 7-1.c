@@ -27,16 +27,15 @@ int main(){
     }
 }
 
-//문제 3    해결못함
+//문제 3
 #include<stdio.h>
 
 int main(){
-    int a=1,b;
+    int a=1,b=0;
 
-    while(a==0){
+    while(a!=0){
         scanf("%d",&a);
         b+=a;
-        a=1;
     }
 
     printf("%d",b);
@@ -57,17 +56,18 @@ int main(){
     }
 }
 */
-//문제 5    해결못함
+//문제 5
 #include<stdio.h>
 
 int main(){
-    float a;
-    scanf("%d",&a);
-    float b,c;
-    int i;
-    while(i<a){
-        scanf("%d",&b);
+    float a=0;
+    float b=0,c=0;
+    int i=0;
 
+    scanf("%f",&a);
+
+    while(i<a){
+        scanf("%f",&b);
         c+=b;
         i++;
     }
