@@ -27,7 +27,7 @@ int main(){
     }
 }
 
-//문제 3
+//문제 3    해결못함
 #include<stdio.h>
 
 int main(){
@@ -57,7 +57,7 @@ int main(){
     }
 }
 */
-//문제 5
+//문제 5    해결못함
 #include<stdio.h>
 
 int main(){
