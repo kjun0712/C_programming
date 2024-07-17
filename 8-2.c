@@ -1,4 +1,3 @@
-/*
 //문제 1
 #include<stdio.h>
 
@@ -13,7 +12,7 @@ int main(){
         }
     }
 }
-*/
+
 //문제 2
 #include<stdio.h>
 
