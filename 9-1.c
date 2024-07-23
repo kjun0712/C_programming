@@ -45,23 +45,21 @@ int main(){
     C(tem);
 }
 */
-//문제 3
+//문제 3  해결못함
 #include<stdio.h>
 
-int p(int f, int s, int l){
-    l=f+s;
-
+int p(int f, int s){
     printf("%d ", f);
-
-    f+=s;
 }
 
 int main(){
-    int a=0,b=1,c;
+    int a=0,b=1;
     int t;
     scanf("%d",&t);
 
     for(int i=0; i<t; i++){
-        p(a,b,c);
+        p(a,b);
+        b+=a;
+        a+=b;
     }
 }
