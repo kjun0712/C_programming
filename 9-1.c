@@ -1,3 +1,4 @@
+/*
 //문제 1
 #include<stdio.h>
 
@@ -28,4 +29,39 @@ int main(){
     scanf("%d %d %d",&num1, &num2, &num3);
 
     number(num1, num2, num3);
+}
+
+//문제 2
+#include<stdio.h>
+
+int C(int cel){
+    printf("%f",1.8*cel+32);
+}
+
+int main(){
+    int tem;
+    scanf("%d",&tem);
+
+    C(tem);
+}
+*/
+//문제 3
+#include<stdio.h>
+
+int p(int f, int s, int l){
+    l=f+s;
+
+    printf("%d ", f);
+
+    f+=s;
+}
+
+int main(){
+    int a=0,b=1,c;
+    int t;
+    scanf("%d",&t);
+
+    for(int i=0; i<t; i++){
+        p(a,b,c);
+    }
 }
