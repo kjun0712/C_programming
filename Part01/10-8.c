@@ -1,8 +1,14 @@
 //도전 8
 #include<stdio.h>
-int result(){
-    if(a<=0){
-        return;
+
+int num=1;
+
+int result(int r){
+    if(r==0){
+        printf("%d",num);
+    }else{
+        num*=2;
+        result(r-1);
     }
 }
 
